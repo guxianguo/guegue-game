@@ -1,9 +1,30 @@
-Library/
-Temp/
-*.sln
-*.csproj
+# Unity specific
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+# Rider specific
+idea/
+
+# VS/MD specific
+vs/
+*.suo
 *.userprefs
 *.unityproj
-vscode/
-Logs/
-UserSettings/
+*.csproj
+*.pdb
+*.pdb.meta
+
+# Build Results
+*.apk
+*.unitypackage
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
